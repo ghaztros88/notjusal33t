@@ -1,0 +1,42 @@
+{
+  "url": "https://notjustal33t.quest",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "localhost",
+      "user": "ghost-867",
+      "password": ",D!byDYY)X}+TmZ{.hS/",
+      "database": "notjustal33t_prod"
+    }
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "service": "sendinblue",
+      "host": "smtp-relay.sendinblue.com",
+      "port": "587",
+      "auth": {
+        "user": "strangewonderlandhero1889@gmail.com",
+        "pass": "SQJx2514WdOmMPRq"
+      }
+    }
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/www/notjustal33t/content"
+  },
+  "admin": {
+    "url": "https://admin.notjustal33t.quest"
+  },
+  "admin-url": "https://admin.notjustal33t.quest"
+}
